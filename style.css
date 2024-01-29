@@ -3,6 +3,7 @@
     --secondary-font: 'Poppins', sans-serif;
     --background-color: #F9F7FE;
     --secondary-heading-color: #272142;
+    --button-color: #6C63FF;
 }
 
 .hero {
@@ -21,7 +22,7 @@ h1 {
     font-weight: bold;
 }
 
-h2 {
+.hero h2 {
     font-family: var(--secondary-font);
     font-weight: normal;
     font-size: 24px;
@@ -41,8 +42,77 @@ h2 {
     font-family: var(--secondary-font);
     font-size: 18px;
     font-weight: normal;
-    background-color: #6C63FF;
+    background-color: var(--button-color);
     border-radius: 4px;
     margin: 25px;
     padding: 18px 46px;
 }
+
+.container h2 {
+    color: black;
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 64px;
+    text-align: left;
+    margin-top: 95px;
+    margin-bottom: 55px;
+}
+
+.container p  {
+    font-weight: normal;
+    line-height: 1.7;
+    text-align: left;
+    opacity: 70%;
+    line-height: 30px;
+}
+
+.header-second-page {
+    text-align: center;
+    font-family: var(--secondary-font);
+    font-size: 18;
+    font-weight: normal;
+    margin-top: 125px;
+    margin-bottom: 82px;
+}
+
+.container .btn {
+    color: var(--button-color);
+    margin-left: 0;
+    background-color: white;
+}
+
+
+@media (max-width: 960px) {
+    .hero {
+        padding: 100px 16px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .header-second-page {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+      .container h2  {
+            margin: 20px;
+            text-align: center;
+            font-size: 36px;
+        }
+
+        .container {
+            text-align: center;
+            display: inline;
+        }
+
+        .container p {
+            margin-left: 10px;
+            margin-right: 10px;
+            text-align: center;
+        }
+
+    }
+
+
