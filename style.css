@@ -82,38 +82,7 @@ h1 {
 }
 
 
-@media (max-width: 960px) {
-    .hero {
-        padding: 100px 16px;
-    }
 
-    h1 {
-        font-size: 50px;
-    }
-
-    .header-second-page {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    
-      .container h2  {
-            margin: 20px;
-            text-align: center;
-            font-size: 36px;
-        }
-
-        .container {
-            text-align: center;
-            display: inline;
-        }
-
-        .container p {
-            margin-left: 10px;
-            margin-right: 10px;
-            text-align: center;
-        }
-
-    }
 
 
 /*about-page*/
@@ -121,7 +90,7 @@ h1 {
     .flex-container {
         display: flex;
         justify-content: space-evenly;
-        padding: 90px;
+        padding: 160px 24px;
         margin: 140px;
       }
 
@@ -162,3 +131,96 @@ h1 {
     
 
 
+      @media (max-width: 960px) {
+        .hero {
+            padding: 100px 16px;
+        }
+    
+        h1 {
+            font-size: 50px;
+        }
+    
+        .header-second-page {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+          .container h2  {
+                margin: 20px;
+                text-align: center;
+                font-size: 36px;
+            }
+    
+            .container {
+                text-align: center;
+                display: inline;
+            }
+    
+            .container p {
+                margin-left: 10px;
+                margin-right: 10px;
+                text-align: center;
+            }
+    
+            .about-info {
+                text-align: center;
+                margin-top: 20px;
+            }
+
+
+
+
+
+            @media (max-width: 960px) {
+    .hero {
+        padding: 100px 16px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .header-second-page {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+      .container h2  {
+            margin: 20px;
+            text-align: center;
+            font-size: 36px;
+        }
+
+        .container {
+            text-align: center;
+            display: inline;
+        }
+
+        .container p {
+            margin-left: 10px;
+            margin-right: 10px;
+            text-align: center;
+        }
+
+        .about-info {
+            text-align: center;
+            margin-right: 0px;
+        }
+
+        .about-info h1 {
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .about-info h2 {
+            text-align: center;
+        }
+
+        .flex-container {
+        justify-content: center;
+        margin: 0px;
+        padding: 0% 5% 5% 5%;
+        }
+       
+    }
+}
