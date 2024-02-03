@@ -83,7 +83,7 @@ h1 {
 
 
 .container .col-md {
-    margin: 30px 35px;
+    margin: 30px 30px;
 }
 
 
@@ -134,16 +134,37 @@ h1 {
 
       /*work page*/
 
-.work h1 {
+.content-container h1 {
     text-align: left;
     font-size: 64px;
     width: 825px;
+    margin-bottom: 103px;
+    padding-left: 42px;
+
 }
 
 .content-container {
     display: block;  
+    text-align: center;
 }
-            @media (max-width: 960px) {
+
+.content-container h3 {
+    font-family: var(--secondary-font);
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.content-container .work-description {
+    text-align: center;
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    opacity: 70%;
+    color: var(--secondary-heading-color);
+}
+
+
+        @media (max-width: 960px) {
     .hero {
         padding: 100px 16px;
     }
