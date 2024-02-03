@@ -82,12 +82,14 @@ h1 {
 }
 
 
-
+.container .col-md {
+    margin: 30px 35px;
+}
 
 
 /*about-page*/
 
-    .flex-container {
+    .content-container {
         display: flex;
         justify-content: space-evenly;
         padding: 160px 24px;
@@ -130,47 +132,17 @@ h1 {
       }
     
 
+      /*work page*/
 
-      @media (max-width: 960px) {
-        .hero {
-            padding: 100px 16px;
-        }
-    
-        h1 {
-            font-size: 50px;
-        }
-    
-        .header-second-page {
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-        
-          .container h2  {
-                margin: 20px;
-                text-align: center;
-                font-size: 36px;
-            }
-    
-            .container {
-                text-align: center;
-                display: inline;
-            }
-    
-            .container p {
-                margin-left: 10px;
-                margin-right: 10px;
-                text-align: center;
-            }
-    
-            .about-info {
-                text-align: center;
-                margin-top: 20px;
-            }
+.work h1 {
+    text-align: left;
+    font-size: 64px;
+    width: 825px;
+}
 
-
-
-
-
+.content-container {
+    display: block;  
+}
             @media (max-width: 960px) {
     .hero {
         padding: 100px 16px;
@@ -223,4 +195,3 @@ h1 {
         }
        
     }
-}
