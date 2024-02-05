@@ -163,6 +163,36 @@ h1 {
     color: var(--secondary-heading-color);
 }
 
+nav {
+    padding: 20px 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    line-height: 42px;
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--secondary-heading-color);
+    opacity: 70%;
+}
+
+nav a:hover,
+nav li.active a
+ {
+    color: var(--button-color);
+}
+
+.logo {
+    max-height: 40px;
+}
 
         @media (max-width: 960px) {
     .hero {
@@ -213,6 +243,10 @@ h1 {
         justify-content: center;
         margin: 0px;
         padding: 0% 5% 5% 5%;
+        }
+
+        nav a {
+            font-size: 14px;
         }
        
     }
