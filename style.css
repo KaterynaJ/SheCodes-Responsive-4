@@ -194,7 +194,78 @@ nav li.active a
     max-height: 40px;
 }
 
-        @media (max-width: 960px) {
+/*footer*/
+
+footer {
+    font-size: var(--secondary-font);
+    text-align: center;
+}
+
+footer .btn {
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer .email-link {
+    color: black;
+    font-size: 24px;
+    font-family: var(--secondary-font);
+    font-weight: 500;
+}
+
+footer .email-link:hover {
+    color: var(--button-color); 
+}
+
+footer .social-links a {
+    margin: 0 10px; 
+    color: var(--button-color);
+    background-color: var(--background-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+footer .social-links {
+    margin: 41px 60px; 
+}
+
+footer .social-links a:hover {
+    color: white;
+    background-color: var(--button-color);
+    transition: all 150ms ease-in-out;
+}
+
+footer .call-to-action-box {
+    background-color: var(--background-color);
+    border-radius: 8px;
+    margin: 198px 140px 78px 140px;
+    padding: 49px 121px 42px 119px;
+}
+
+footer h4 {
+    font-family: var(--main-font);
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+}
+
+footer p {
+    font-family: var(--secondary-font);
+    opacity: 70%;
+    color: var(--secondary-heading-color);
+    text-align: left;
+    font-size: 18px;
+}
+
+
+
+@media (max-width: 960px) {
     .hero {
         padding: 100px 16px;
     }
@@ -248,5 +319,29 @@ nav li.active a
         nav a {
             font-size: 14px;
         }
-       
-    }
+
+        footer .call-to-action-text {
+            padding: 20px;
+        }
+
+        footer h4 {
+            font-size: 30px;
+        }
+
+        footer p {
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+
+        footer .call-to-action-box {
+            margin: 20px;
+            padding: 20px;
+        }
+
+        footer .btn {
+            font-size: 14px;
+            font-weight: 400;
+            margin: 15px;
+            padding: 8px 38px;
+        }
+}
