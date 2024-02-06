@@ -163,8 +163,11 @@ h1 {
     color: var(--secondary-heading-color);
 }
 
+/*header*/
+
 nav {
-    padding: 20px 0;
+    padding: 40px 0;
+    background-color: var(--background-color);
 }
 
 nav ul {
@@ -178,10 +181,12 @@ nav li {
     margin-left: 10px;
 }
 
-nav a {
+nav ul a {
     text-decoration: none;
     color: var(--secondary-heading-color);
     opacity: 70%;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 nav a:hover,
