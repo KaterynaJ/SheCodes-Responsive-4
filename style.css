@@ -89,7 +89,7 @@ h1 {
 
 /*about-page*/
 
-    .content-container {
+    .about-content-container {
         display: flex;
         justify-content: space-evenly;
         padding: 160px 24px;
@@ -134,13 +134,14 @@ h1 {
 
       /*work page*/
 
+
 .content-container h1 {
     text-align: left;
     font-size: 64px;
     width: 825px;
     margin-bottom: 103px;
-    padding-left: 42px;
-
+    margin-left: 30px;
+    margin-top: 178px;
 }
 
 .content-container {
@@ -163,10 +164,22 @@ h1 {
     color: var(--secondary-heading-color);
 }
 
+/*contact page*/
+
+.contact-h1 {
+    font-size: 64px;
+    margin-top: 178px;
+    margin-left: 55px;
+    text-align: left;
+}
+
 /*header*/
 
 nav {
     padding: 40px 0;
+}
+
+.nav-hero {
     background-color: var(--background-color);
 }
 
