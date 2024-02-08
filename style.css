@@ -12,6 +12,10 @@
     padding: 160px 24px;
 }
 
+.row {
+    width: 90%;
+}
+
 h1, h2 {
     text-align: center;
 }
@@ -92,7 +96,7 @@ h1 {
     .about-content-container {
         display: flex;
         justify-content: space-evenly;
-        padding: 160px 24px;
+        padding: 38px 24px;
         margin: 140px;
       }
 
@@ -128,7 +132,6 @@ h1 {
 
       .about-photo {
         border-radius: 25px;
-        box-shadow: 0px 5px 8px grey;
       }
     
 
@@ -261,8 +264,9 @@ footer .social-links a:hover {
 
 footer .call-to-action-box {
     background-color: var(--background-color);
-    border-radius: 8px;
-    margin: 198px 140px 78px 140px;
+    border-radius: 25px;
+    width: 1160px;
+    margin: 130px auto;
     padding: 49px 121px 42px 119px;
 }
 
@@ -288,8 +292,20 @@ footer p {
         padding: 100px 16px;
     }
 
-    h1 {
+    h1,
+    .container h1 {
         font-size: 50px;
+    }
+
+    .contact-h1,
+    .content-container h1  {
+        margin-top: 0;
+    }
+
+
+    .content-container h1 {
+        font-size: 40px;
+        width: 350px;
     }
 
     .header-second-page {
@@ -336,6 +352,7 @@ footer p {
 
         nav a {
             font-size: 14px;
+            margin: 12px;
         }
 
         footer .call-to-action-text {
@@ -354,6 +371,7 @@ footer p {
         footer .call-to-action-box {
             margin: 20px;
             padding: 20px;
+            width: 350px;
         }
 
         footer .btn {
@@ -362,4 +380,9 @@ footer p {
             margin: 15px;
             padding: 8px 38px;
         }
-}
+
+        .about-content-container {
+            padding: 38px 24px;
+            margin: auto;
+          }
+        }
