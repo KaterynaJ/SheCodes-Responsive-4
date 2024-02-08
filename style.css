@@ -12,12 +12,12 @@
     padding: 160px 24px;
 }
 
-.row {
-    width: 90%;
-}
-
 h1, h2 {
     text-align: center;
+}
+
+.row {
+    width: 90%;
 }
 
 h1 {
@@ -58,7 +58,6 @@ h1 {
     font-weight: bold;
     font-size: 64px;
     text-align: left;
-    margin-top: 95px;
     margin-bottom: 55px;
 }
 
@@ -265,7 +264,7 @@ footer .social-links a:hover {
 footer .call-to-action-box {
     background-color: var(--background-color);
     border-radius: 25px;
-    width: 1160px;
+    width: 90%;
     margin: 130px auto;
     padding: 49px 121px 42px 119px;
 }
@@ -386,3 +385,5 @@ footer p {
             margin: auto;
           }
         }
+
+
